@@ -285,6 +285,9 @@ nav h1 a {
   color: #666;
 }
 
+.filter-options label {
+  display: none;
+}
 
 @media screen and (max-width: 576px) {
   .filter-options {
@@ -301,7 +304,10 @@ nav h1 a {
     width: 41%;
   }
   #reviews-list li {
-    padding: 1em;
+    padding: 0;
+  }
+  #restaurant-hours td {
+    border-bottom: 1px dotted black;
   }
 }
 
@@ -317,6 +323,9 @@ nav h1 a {
   }
     #reviews-list li {
       padding: 1em;
+  }
+    #restaurant-hours td {
+    border-bottom: 1px dotted black;
   }
 }
 
